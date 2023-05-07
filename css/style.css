@@ -1,0 +1,183 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+   background: #353A40;
+   display: inline-block;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+}
+
+
+
+.logo {
+   display: inline-block;
+}
+
+.logo img {
+   height: 75px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+
+h2 {
+   color: white;
+   display: inline-block;
+}
+
+nav {
+   display: inline-block;
+   float: right;
+   padding: 25px;
+}
+
+a:hover {
+   color: white;
+}
+
+
+a {
+   color: gray;
+   text-decoration: none;
+   padding: 5px;
+}
+
+main {
+   display: inline-block;
+   color: white;
+}
+
+button {
+   color: white;
+   padding-bottom: 10px;
+   border-radius: 10px;
+   border: 0px;
+   display: inline-block;
+   text-align: end;
+
+}
+.comprar {
+   background-color: rgb(32, 223, 48);
+   color: white;
+   display: inline-block;
+
+   
+}
+.orador {
+   border-color: white;
+   background-color: transparent;
+   border-bottom-style: dashed;
+}
+
+section {
+   height: 100vh;
+   position: relative;
+}
+
+section > img {
+   height: 100%;
+   width: 100%;
+}
+
+
+.container-conferencia {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   text-align: right;
+   color: white;
+}
+.first-paragraph{
+   padding: 10px;
+}
+
+.enlace-1 {
+   padding: 10px;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+
+.enlace-2 {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: green;
+}
+
+h3,
+h4 {
+   text-align: center;
+}
+
+.card.text-bg-dark{
+   color: white;
+   position: relative;
+   display: inline-block;
+   
+
+}
+.card-img {
+   opacity: 50;
+}
+
+.card-img-overlay{
+   display: inline-block;
+   color: white;
+   position: -webkit-sticky;
+   text-align: right;
+   margin-top: 300px;
+   margin-left: 700px;
+}
+
+.card img {
+   width: 100%;
+}
+
+.cardf {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+#lugar {
+   display: flex;
+}
+
+#lugar img {
+   width: 50%;
+   height: 50%;
+}
+
+.card-body {
+   background-color: rgb(80, 79, 79);
+   color: whitesmoke;
+   height: 100%;
+   font-size: small;
+}
+
+span {
+   text-align: center;
+   font-size: xx-large;
+}
+.formulario{
+   margin-left: 100px;
+   width: 70%;
+   position: absolute;
+   
+}
+
+.final {
+   text-align: center;
+   width: 100%;
+   color: white;
+   border-radius: 10px;
+   background-color: rgb(110, 233, 10);
+}
+
